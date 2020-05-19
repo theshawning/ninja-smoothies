@@ -1,19 +1,19 @@
 <template>
   <div class="home">
     <Navbar />
-    <Index />
+    <EditSmoothie />
   </div>
 </template>
 
 <script>
 import Navbar from "@/components/Navbar.vue"
-import Index from '@/components/Index.vue'
+import EditSmoothie from '@/components/EditSmoothie.vue'
 
 export default {
-  name: "Home",
+  name: "EditSmoothieView",
   components: {
     Navbar,
-    Index
+    EditSmoothie
   }
 };
 </script>
